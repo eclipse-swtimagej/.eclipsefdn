@@ -10,6 +10,8 @@ orgs.newOrg('eclipse-swtimagej') {
     },
   },
   _repositories+:: [
+    orgs.newRepo('SWTImageJ') {
+    },
     orgs.newRepo('website') {
       allow_merge_commit: true,
       allow_update_branch: false,
