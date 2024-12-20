@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-swtimagej') {
+orgs.newOrg('technology.swtimagej', 'eclipse-swtimagej') {
   settings+: {
     description: "",
     name: "Eclipse SWTImageJ",
