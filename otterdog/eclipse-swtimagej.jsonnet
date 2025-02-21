@@ -20,6 +20,15 @@ orgs.newOrg('technology.swtimagej', 'eclipse-swtimagej') {
       web_commit_signoff_required: false,
     },
   ],
+  webhooks+: [
+    orgs.newOrgWebhook('https://ci.eclipse.org/swtimagej/github-webhook/') {
+      content_type: "json",
+      events+: [
+        "pull_request",
+        "push"
+      ],
+    },
+  ],
 } + {
   # snippet added due to 'https://github.com/EclipseFdn/otterdog-configs/blob/main/blueprints/add-dot-github-repo.yml'
   _repositories+:: [
