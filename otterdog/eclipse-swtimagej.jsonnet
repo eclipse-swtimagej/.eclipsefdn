@@ -11,6 +11,7 @@ orgs.newOrg('technology.swtimagej', 'eclipse-swtimagej') {
   },
   _repositories+:: [
     orgs.newRepo('SWTImageJ') {
+      default_branch: "develop",
     },
     orgs.newRepo('website') {
       allow_merge_commit: true,
