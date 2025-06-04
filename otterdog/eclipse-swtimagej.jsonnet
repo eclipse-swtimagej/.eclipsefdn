@@ -2,7 +2,7 @@ local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
 orgs.newOrg('technology.swtimagej', 'eclipse-swtimagej') {
   settings+: {
-    description: "",
+    description: "Image Processing and Analysis for the Standard Widget Toolkit",
     name: "Eclipse SWTImageJ",
     web_commit_signoff_required: false,
     workflows+: {
