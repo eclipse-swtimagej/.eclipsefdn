@@ -12,6 +12,7 @@ orgs.newOrg('technology.swtimagej', 'eclipse-swtimagej') {
   _repositories+:: [
     orgs.newRepo('SWTImageJ') {
       default_branch: "develop",
+      description: "Image Processing and Analysis for the Standard Widget Toolkit",
     },
     orgs.newRepo('website') {
       allow_merge_commit: true,
